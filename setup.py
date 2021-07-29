@@ -25,7 +25,9 @@ setup(name='data_pull',
       packages=['data_pull'],
       install_requires=[
           'numpy',
-          'pandas'
+          'pandas',
+          'setuptools',
+          'pathlib'
       ],
       test_suite='nose.collector',
       tests_require=['nose', 'nose-cover3'],
